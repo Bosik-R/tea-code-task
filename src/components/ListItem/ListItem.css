@@ -1,0 +1,44 @@
+.userWrapper {
+	width: 100%;
+	height: auto;
+	border: 1px solid rgb(27, 27, 27);
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	margin-bottom: 5px;
+}
+
+.avatar {
+	padding: 5px;
+	height: 65px;
+	width: 100px;
+	border-right: 1px solid rgb(27, 27, 27);
+	display: grid;
+	place-items: center;
+}
+
+.userName {
+	padding: 4px 10px;
+	height: 65px;
+	width: 300px;
+	display: flex;
+	align-items: center;
+	border-right: 1px solid rgb(27, 27, 27);
+	font-size: 20px;
+}
+
+span {
+	margin: 0 5px;
+}
+
+.checkboxWrapper {
+	display: grid;
+	place-items: center;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.userCheckbox {
+	height: 30px;
+	width: 30px;
+}
